@@ -1,0 +1,52 @@
+{
+    "title": "JayZON tales",
+    "date": 2020,
+    "pages": [
+        {
+            "number": "0",
+            "text": [   { "para" : "Vous êtes JaySON et vous êtes le héro. Vous êtes donc en capacité de faire absolument tout ce qu'il vous plaira, souvenez-vous en bien car vous remarquerez vite que quelque chose cloche réellement dans cette histoire."},
+                { "para" : "Vous êtes dans une calme prairie ou les oiseaux chantent, les rivières coulent et la quiétude se sent dans l'air tiède d'une matinée ensoleillée du printemps."}, 
+                { "para" : "Tout à coup surgissent un chien et Mario (oui oui, le frère de Luiggi)."}, 
+                { "para" : "C'est vraiment pénible ! dès qu'on est tranquille à savourer un moment de calme il y a toujours des gêneurs pour tout gâcher !"}, 
+                { "para" : "Vous vous retrouvez donc avec deux possibilités. Oui c'est vrai c'est paradoxal, mais vous étiez prévenu."} ],
+            "link": [   { "choice": "Coller un \"Million tonne punch\" dans la tronche de Mario", "toPage": 2 },
+                        { "choice": "Donner au chien une croquette que vous aviez dans la poche", "toPage": 1 } ]
+        },
+        
+        {
+            "number": "1",
+            "text": [   { "para" : "Le chien mange la croquette et, pris de panique, part en courant."},
+                        { "para" : "Pauvre animal, c'etaint une croquette pour chat !"},
+                        { "para" : "Mario est toujours là à vous regarder comme un imbécile."} ],
+            "link": [   { "choice": "Coller un Million tonne punch dans la tronche de Mario", "toPage": 2 } ]
+        },
+        
+        {
+            "number": "2",
+            "text": [   { "para" : "Vous avez pété la gueule de Mario."},
+                        { "para" : "Le chien à eu peur et est parti aussi."}, 
+                        { "para" : "Vous voila peinard de nouveau"} ],
+            "link": [   { "choice": "Pos 1", "toPage": 3 },
+                        { "choice": "Pos 2", "toPage": 3 },
+                        { "choice": "Pos 3", "toPage": 4 } ]
+        },
+        
+        {
+            "number": "3",
+            "text": [   { "para" : "Text"},
+                        { "para" : "Text"}, 
+                        { "para" : "4"} ],
+            "link": [   { "choice": "Pos 1", "toPage": 3 },
+                        { "choice": "Pos 2", "toPage": 2 } ]
+        },
+        
+        {
+            "number": "4",
+            "text": [   { "para" : "Text"},
+                        { "para" : "Text"}, 
+                        { "para" : "5"} ],
+            "link": [   { "choice": "Pos 1", "toPage": 2 },
+                        { "choice": "Pos 2", "toPage": 1 } ]
+        }
+    ]
+}
