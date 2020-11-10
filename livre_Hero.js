@@ -96,7 +96,7 @@ function PopulateSection(curpage) {  // Peuplement des possibilités , texte cho
 }
 
 
-function changepage(gotopage) {
+function changepage(gotopage) { // fonction refresh article et section
     currentpage = gotopage;
     PopulateArticle(currentpage);
     PopulateSection(currentpage);
