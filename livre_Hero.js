@@ -80,8 +80,8 @@ function PopulateSection(curpage) {  // Peuplement des possibilités , texte cho
         
         let myChoice = document.createElement('BUTTON'); // créer un bouton dans la div
         gotoPage = histoire.pages[curpage].link[i].toPage;
-        myChoice.setAttribute('type', 'button'); // set type
-        myChoice.setAttribute('id', 'button' + i); // set Id
+        myChoice.setAttribute('type', 'button'); // set button type
+        myChoice.setAttribute('id', 'button' + i); // set button Id
         myChoice.setAttribute('value', histoire.pages[curpage].link[i].toPage); // récupre value=lien vers page /!\ il faut maintenant faire un onclick vers changepage(toPage) 
         myChoice.innerHTML = "Choisir";                                                             // !!! à let curpage = 0; en tout début de code
 
