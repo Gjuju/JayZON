@@ -6,7 +6,6 @@ h1 {
     padding: 20px 30px 30px 30px;
 }
 
-
 article {
     padding: 50px 100px 50px 100px;
     text-align: center;
@@ -14,7 +13,7 @@ article {
     text-align: center;
 }
 
- .choice {
+.choice {
     border-radius: 10px;
     font-size: large;
     text-align: center;
