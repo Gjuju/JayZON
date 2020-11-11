@@ -7,7 +7,6 @@ h1 {
 }
 
 
-
 article {
     padding: 50px 100px 50px 100px;
     text-align: center;
@@ -15,7 +14,7 @@ article {
     text-align: center;
 }
 
-.row  .col-3, .col-4, .col-6, .col-12 {
+ .choice {
     border-radius: 10px;
     font-size: large;
     text-align: center;

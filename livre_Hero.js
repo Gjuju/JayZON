@@ -73,7 +73,7 @@ function PopulateSection(curpage) {  // Peuplement des possibilités , texte cho
     for (i = 0; i < histoire.pages[curpage].link.length; i++) {
 
         let myDiv3 = document.createElement('div'); // créer une div class='col-x'
-        myDiv3.className = 'col-' + divide;
+        myDiv3.className = 'choice col-' + divide;
 
         let myPos = document.createElement('p'); // créer un texte dans la div col
         myPos.textContent = histoire.pages[curpage].link[i].choice;
