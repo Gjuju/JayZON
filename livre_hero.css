@@ -2,7 +2,7 @@ h1 {
     text-align: center;
     color: seashell;
     background-color: rgb(48, 49, 49);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 20px 30px 30px 30px;
 }
 
@@ -13,10 +13,3 @@ div .text {
     text-align: center;
 }
 
-.choice {
-    border-radius: 10px;
-    font-size: large;
-    text-align: center;
-    color: seashell;
-    background-color: rgb(48, 49, 49);
-}

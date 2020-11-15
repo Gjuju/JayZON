@@ -74,20 +74,17 @@ function PopulateSection(curpage) {  // Peuplement des possibilités , texte cho
 
         let myDiv3 = document.createElement('div'); // créer une div class='col-x'
         myDiv3.className = 'choice col-' + divide;
-
-        let myPos = document.createElement('p'); // créer un texte dans la div col
-        myPos.textContent = histoire.pages[curpage].link[i].choice;
         
         let myChoice = document.createElement('BUTTON'); // créer un bouton dans la div
         gotoPage = histoire.pages[curpage].link[i].toPage;
+        myChoice.className = 'btn btn-dark btn-lg btn-block';
         myChoice.setAttribute('type', 'button'); // set button type
         myChoice.setAttribute('id', 'button' + i); // set button Id
-        myChoice.setAttribute('value', histoire.pages[curpage].link[i].toPage); // récupre value=lien vers page /!\ il faut maintenant faire un onclick vers changepage(toPage) 
-        myChoice.innerHTML = "Choisir";                                                             // !!! à let curpage = 0; en tout début de code
+        myChoice.setAttribute('value', gotoPage); // récupre value=lien vers page /!\ il faut maintenant faire un onclick vers changepage(toPage) 
+        myChoice.innerHTML = histoire.pages[curpage].link[i].choice;                                                             // !!! à let curpage = 0; en tout début de code
 
         myDiv1.appendChild(myDiv2); // peupler la section/div id="possib" avec cette div
         myDiv2.appendChild(myDiv3); // peupler la section/div id="possib" avec cette div
-        myDiv3.appendChild(myPos); // peupler cette div avec un P de texte
         myDiv3.appendChild(myChoice); // y ajouter un bouton
     }
 
